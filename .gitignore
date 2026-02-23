@@ -2,3 +2,13 @@
 .Rhistory
 .RData
 .Ruserdata
+.DS_Store
+
+# Ignore .rds files, which are often used for caching in R projects
+*.rds
+# Ignore raw sequencing data
+raw-data/
+# Ignore processed large data
+processed-data/**/*.csv
+processed-data/**/*.tsv
+processed-data/**/*.xlsx
